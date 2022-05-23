@@ -39,5 +39,6 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 
 #### Extras
 
-* -[x] Show both front and back sprite aswell as both front and back shiny sprite 
+* -[x] Show both front and back sprite aswell as both front and back shiny sprite
+* - [x] Show both front and back sprite for female version (shiny aswell)
 * -[x] Show typing
