@@ -1,4 +1,3 @@
-
 //enable button to be clicked by pressing Enter key
 document.getElementById('searchInput').addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
@@ -12,37 +11,67 @@ document.getElementById('search').addEventListener('click', async function () {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${search}`);
     let data = await response.json();
     console.log(data);
+    displayData();
 
 // display data from api on page(pokedex)
-    //display name
-    document.getElementById('name').innerHTML = data.name;
-    //display ID
-    document.getElementById('id').innerHTML = data.id;
-    // front and back sprites normal
-    document.getElementById('frontSprite').src = data.sprites.front_default;
-    document.getElementById('backSprite').src = data.sprites.back_default;
-    //front and back sprites Shiny version
-    document.getElementById('frontSpriteShiny').src = data.sprites.front_shiny;
-    document.getElementById('backSpriteShiny').src = data.sprites.back_shiny;
-    //front and back sprites for female
-    document.getElementById('frontSpriteFemale').src = data.sprites.front_female;
-    document.getElementById('backSpriteFemale').src = data.sprites.back_female;
-    // front and back sprites shiny version female
-    document.getElementById('frontSpriteShinyFemale').src = data.sprites.front_shiny_female;
-    document.getElementById('backSpriteShinyFemale').src = data.sprites.back_shiny_female;
-    //Ditto only has 1 move
-    if (search === 132 || search === "ditto"){
-        document.getElementById('type').innerHTML = data.types.map(type => type.type.name).join(", ");
-        let movesArray = data.moves.map(move => move.move.name);
-        console.log(movesArray)
-        document.getElementById("moves").innerHTML = movesArray;
-    }
 
-    document.getElementById('type').innerHTML = data.types.map(type => type.type.name).join(", ");
-    let movesArray = data.moves.map(move => move.move.name).slice(0,4);
-    console.log(movesArray)
-    document.getElementById("moves").innerHTML = movesArray
-})
+    function displayData() {
+        //display name
+        document.getElementById('name').innerHTML = data.name;
+        //display ID
+        document.getElementById('id').innerHTML = data.id;
+
+        // change sprites accordingly, don't change images when sprite unavailable
+
+        // front male
+        if (data.sprites.front_default != null) {
+            document.getElementById('frontSprite').src = data.sprites.front_default;
+        }
+        //back male
+        if (data.sprites.back_default != null) {
+            document.getElementById('backSprite').src = data.sprites.back_default;
+        }
+        //front male shiny
+        if (data.sprites.front_shiny != null) {
+            document.getElementById('frontSpriteShiny').src = data.sprites.front_shiny;
+        }
+        //back male shiny
+        if (data.sprites.back_shiny != null) {
+            document.getElementById('backSpriteShiny').src = data.sprites.back_shiny;
+        }
+        //front female
+        if (data.sprites.front_female != null) {
+            document.getElementById('frontSpriteFemale').src = data.sprites.front_female;
+        }
+        //back female
+        if (data.sprites.back_female != null) {
+            document.getElementById('backSpriteFemale').src = data.sprites.back_female;
+        }
+        //front female shiny
+        if (data.sprites.front_shiny_female != null) {
+            document.getElementById('frontSpriteShinyFemale').src = data.sprites.front_shiny_female;
+        }
+        //back female shiny
+        if (data.sprites.back_shiny_female != null) {
+            document.getElementById('backSpriteShinyFemale').src = data.sprites.back_shiny_female;
+        }
+
+
+        //Ditto only has 1 move
+        if (search === 132 || search === "ditto") {
+            document.getElementById('type').innerHTML = data.types.map(type => type.type.name).join(", ");
+            let movesArray = data.moves.map(move => move.move.name);
+            console.log(movesArray)
+            document.getElementById("moves").innerHTML = movesArray;
+        }
+
+        document.getElementById('type').innerHTML = data.types.map(type => type.type.name).join(", ");
+        let movesArray = data.moves.map(move => move.move.name).slice(0, 4);
+        console.log(movesArray)
+        document.getElementById("moves").innerHTML = movesArray
+    }
+});
+
 
 
 

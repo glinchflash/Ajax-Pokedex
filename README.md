@@ -1,5 +1,6 @@
 # Title: Ajax-Pokedex
 
+Check out my [pokedex](https://glinchflash.github.io/Ajax-Pokedex/)
 ---
 ### Exercise
 Make a Pokédex using this API.
@@ -33,8 +34,10 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 2. -[ ] Of said pokémon you need to show
     * - [x] name
     *  -[x] id
-    *  -[ ] moves (4 minimum)
+    *  -[x] moves (4 minimum)
     * -[ ]  previous evolution
+3. - [ ] Make your web page look like a pokédex by adding a little CSS
+4.  -[x] Post page on github pages and add link to about/readme
 ---
 
 #### Extras
@@ -42,3 +45,10 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 * -[x] Show both front and back sprite aswell as both front and back shiny sprite
 * - [x] Show both front and back sprite for female version (shiny aswell)
 * -[x] Show typing
+---
+
+##### Issues I came across
+1. when no images available in API don't change image source
+    * fixed it with using != null.
+2. Images from sprites not displaying correctly
+   * linked incorrectly, cleaned up code for better overview
