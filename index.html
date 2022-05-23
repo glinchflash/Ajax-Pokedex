@@ -10,20 +10,31 @@
 <body>
 <div class="container">
     <h1>Pokédex</h1>
-   <form id="pokemonSearch">
+    <form id="pokemonSearch">
         <label for="searchInput">Search a Pokemon by Name or Id</label>
-        <input id="searchInput" type="text" />
+        <input id="searchInput" type="text"/>
         <button id="search" type="button">Search!</button>
     </form>
-    <p id="name">
-    <p>id: <span id="id"></span></p>
-    <p id="sprites">
+    <div id="pokedex">
+        <div id="nameID">
+            <p id="name">
+            <p># <span id="id"></span></p>
+        </div>
+        <p id="sprites">
+        <p>&#9794;</p>
         <img src="" alt="" id="frontSprite">
         <img src="" alt="" id="backSprite">
         <img src="" alt="" id="frontSpriteShiny">
         <img src="" alt="" id="backSpriteShiny">
-    </p>
-    <p>Type: <span id="type"></span></p>
+        <p>&#9792;</p>
+        <img src="" alt="" id="frontSpriteFemale">
+        <img src="" alt="" id="backSpriteFemale">
+        <img src="" alt="" id="frontSpriteShinyFemale">
+        <img src="" alt="" id="backSpriteShinyFemale">
+        </p>
+        <p>Type: <span id="type"></span></p>
+        <p>Known moves: <span id="moves"></span></p>
+    </div>
 </div>
 
 <script src="js/main.js"></script>
