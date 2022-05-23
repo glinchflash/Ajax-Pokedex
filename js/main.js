@@ -5,6 +5,7 @@ document.getElementById('searchInput').addEventListener("keypress", function (e)
         document.getElementById('search').click();
     }
 })
+
 //get input from user from api
 document.getElementById('search').addEventListener('click', async function () {
     let search = document.getElementById('searchInput').value;
@@ -64,13 +65,37 @@ document.getElementById('search').addEventListener('click', async function () {
             console.log(movesArray)
             document.getElementById("moves").innerHTML = movesArray;
         }
-
+        // display moves
         document.getElementById('type').innerHTML = data.types.map(type => type.type.name).join(", ");
         let movesArray = data.moves.map(move => move.move.name).slice(0, 4);
         console.log(movesArray)
         document.getElementById("moves").innerHTML = movesArray
     }
 });
+document.getElementById('search').addEventListener('click', async function () {
+    let search = document.getElementById('searchInput').value
+    const response2 = await fetch(`https://pokeapi.co/api/v2/pokemon/${search}`);
+    let evo = await response2.json();
+    console.log(evo);
+    //displayEvolution();
+    //display evolution line
+  /*  function displayEvolution() {
+        //call name of next evolution
+        document.getElementById('next-evo').innerHTML = evo.chain.evolves_to[0].species.name;
+        //functions to get images of next and previous evolution
+        //function for next evolution
+        getEvoLine()
+        async function getEvoLine (){
+            const nextEvolution =  await fetch(`https://pokeapi.co/api/v2/pokemon/${evo.chain.evolves_to[0].species.name}`);
+            let nextEvo = await nextEvolution.json();
+            //onst preEvolution
+            //
+            document.getElementById('evolution').src = nextEvo.sprites.front_default;
+        }
+
+
+    }*/
+})
 
 
 
