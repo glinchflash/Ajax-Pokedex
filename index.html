@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    <img src="images/pokemonlogo.png" alt="pokemonlogo">
+</header>
 <div class="container">
-    <h1>Pokédex</h1>
+    <h1><img src="images/pokedex.png" alt="title"></h1>
     <form id="pokemonSearch">
-        <label for="searchInput">Search a Pokemon by Name or Id</label>
-        <input id="searchInput" type="text"/>
         <button id="search" type="button">Search!</button>
+        <input id="searchInput" type="text"/>
+        <label for="searchInput">Search a Pokemon by Name or Id</label>
     </form>
     <div id="pokedex">
         <div id="nameID">
-            <p id="name">
-            <p># <span id="id"></span></p>
+            <p> <span id="name">   </span>    # <span id="id"></span></p>
         </div>
         <div id="sprites">
-        <p>&#9794;</p>
+        <p>&#9794; / Genderless</p>
         <img src="images/pokeball.png" alt="" id="frontSprite">
         <img src="images/pokeball.png" alt="" id="backSprite">
         <img src="images/pokeball.png" alt="" id="frontSpriteShiny">
@@ -36,10 +38,10 @@
         <p>Type: <span id="type"></span></p>
         <p>Known moves: <span id="moves"></span></p>
         <div class="evolutions">
-            <p>Evolves from: <span id="pre-evo"></span></p>
+            Evolves from: <span id="pre-evo"></span>
             <img src="images/pokeball.png" alt="" id="pre-evolution">
-            <p>Evolves to: <span id="next-evo"></span></p>
-            <img src="images/pokeball.png" alt="" id="next-evolution">
+          <!--  <p>Evolves to: <span id="next-evo"></span></p>
+            <img src="images/pokeball.png" alt="" id="next-evolution"> extra feature when time left -->
         </div>
     </div>
 </div>

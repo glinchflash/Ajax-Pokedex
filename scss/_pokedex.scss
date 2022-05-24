@@ -1,0 +1,22 @@
+.container{
+  text-align: center;
+    button{
+      background-color: #ffcc03;
+      color: blue;
+      border-radius: 40%;
+    }
+  input{
+    border: 2px solid #ffcc03;
+    border-radius: 20%;
+  }
+  .nameId{
+    display: flex;
+  }
+  #sprites{
+
+    background-color: black;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;;
+  }
+}

@@ -37,6 +37,9 @@ There are a couple of pokemon that don't play with the normal rules, add code so
     *  -[x] moves (4 minimum)
     * -[x]  previous evolution
 3. - [ ] Make your web page look like a pokédex by adding a little CSS
+    * basic layout
+    * background color changes depending on type
+    * give it a pokedex look
 4.  -[x] Post page on github pages and add link to about/readme
 ---
 

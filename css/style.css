@@ -1,6 +1,36 @@
-img {
-  width: 6vw;
-  height: 10vh;
+#pokedex img {
+  width: 8vw;
+  height: 14vh;
+}
+
+body {
+  background-color: red;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+.container button {
+  background-color: #ffcc03;
+  color: blue;
+  border-radius: 40%;
+}
+.container input {
+  border: 2px solid #ffcc03;
+  border-radius: 20%;
+}
+.container .nameId {
+  display: flex;
+}
+.container #sprites {
+  background-color: black;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
