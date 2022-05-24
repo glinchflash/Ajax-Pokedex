@@ -11,7 +11,7 @@ Basic functionality that is expected (read: core features):
 * - [ ] Of said pokémon you need to show:
      * - [x] The ID-number
      * - [x] An image (sprite)
-     * - [ ] At least 4 "moves"
+     * - [x] At least 4 "moves"
      * - [ ] The previous evolution, only if it exists, along with their name and image. Be carefull, you cannot just do ID-1 to get the previous form, for example look into "magmar" - "magmortar". You have to use a seperate api call for this!
 * - [ ] Make your web page look like a pokédex by adding a little CSS.
 
@@ -35,7 +35,7 @@ There are a couple of pokemon that don't play with the normal rules, add code so
     * - [x] name
     *  -[x] id
     *  -[x] moves (4 minimum)
-    * -[ ]  previous evolution
+    * -[x]  previous evolution
 3. - [ ] Make your web page look like a pokédex by adding a little CSS
 4.  -[x] Post page on github pages and add link to about/readme
 ---
@@ -45,6 +45,7 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 * -[x] Show both front and back sprite aswell as both front and back shiny sprite
 * - [x] Show both front and back sprite for female version (shiny aswell)
 * -[x] Show typing
+* -[ ] show next evolution aswell as previous evolution form
 ---
 
 ##### Issues I came across
@@ -52,3 +53,5 @@ There are a couple of pokemon that don't play with the normal rules, add code so
     * fixed it with using != null.
 2. Images from sprites not displaying correctly
    * linked incorrectly, cleaned up code for better overview
+3. evolution line doesn't show correctly (going into a new chain old images stay,next evo isn't always correct )
+   * 
