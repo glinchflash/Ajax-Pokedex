@@ -33,4 +33,9 @@ header {
   margin-right: 30%;
 }
 
+.evolutions {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
