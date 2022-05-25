@@ -1,4 +1,14 @@
-#pokedex img {
+#sprites img {
+  width: 8vw;
+  height: 14vh;
+}
+#sprites p {
+  font-size: x-large;
+  color: black;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ffcc00, 0 0 82px #ffcc01, 0 0 92px #ffcc02, 0 0 102px #ffcc03, 0 0 151px #ffcc04;
+}
+
+#evolutions img {
   width: 8vw;
   height: 14vh;
 }
@@ -9,6 +19,10 @@ body {
 
 header {
   text-align: center;
+}
+
+form {
+  margin: 1%;
 }
 
 .container {
@@ -29,13 +43,39 @@ header {
 .container #sprites {
   background-color: black;
   width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-right: auto;
+  margin-inline: auto;
 }
 
-.evolutions {
-  display: flex;
+#evolutions {
+  width: 40vw;
+  margin-inline: auto;
   justify-content: center;
+  background-color: black;
+  text-align: center;
+}
+#evolutions .evoTitle {
+  font-size: x-large;
+  text-decoration: underline;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ffcc00, 0 0 82px #ffcc01, 0 0 92px #ffcc02, 0 0 102px #ffcc03, 0 0 151px #ffcc04;
+}
+
+#evoSprites {
+  display: flex;
+  width: 40vw;
+  margin-inline: auto;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+}
+
+.basicInfo {
+  display: flex;
+  margin-left: auto;
+}
+.basicInfo .type\/moves {
+  height: 30vh;
+  width: 25vw;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,34 +20,46 @@
         <label for="searchInput">Search a Pokemon by Name or Id</label>
     </form>
     <div id="pokedex">
-        <div id="nameID">
-            <p><span id="name">   </span> # <span id="id"></span></p>
-        </div>
-        <div id="sprites">
-            <p>&#9794; / Genderless</p>
-            <img src="images/pokeball.png" alt="" id="frontSprite">
-            <img src="images/pokeball.png" alt="" id="backSprite">
-            <img src="images/pokeball.png" alt="" id="frontSpriteShiny">
-            <img src="images/pokeball.png" alt="" id="backSpriteShiny">
-            <p>&#9792;</p>
-            <img src="images/pokeball.png" alt="" id="frontSpriteFemale">
-            <img src="images/pokeball.png" alt="" id="backSpriteFemale">
-            <img src="images/pokeball.png" alt="" id="frontSpriteShinyFemale">
-            <img src="images/pokeball.png" alt="" id="backSpriteShinyFemale">
-        </div>
-        <p>Type: <span id="type"></span></p>
-        <p>Known moves: <span id="moves"></span></p>
-        <div class="evolutions">
-            <div class="base"><img src="images/pokeball.png" alt="" id="baseForm">
-                <p><span id="base"></span></p>
+        <div class="basicInfo">
+            <div class="type/moves">
+                <div class="typing"><p>Type: </p>
+                    <p><span id="type"></span></p>
+                </div>
+                <div class="moves"><p>Known moves: </p>
+                    <p><span id="moves"></span></p>
+                </div>
             </div>
-            <div class="middle">
-                <img src="images/pokeball.png" alt="" id="middleForm">
-                <p><span id="middleEvo"></span></p>
+            <div id="sprites">
+                <div id="nameID">
+                    <p><span id="name">   </span> # <span id="id"></span></p>
+                </div>
+                <p>Male &#9794;/ Genderless</p>
+                <img src="images/pokeball.png" alt="" id="frontSprite">
+                <img src="images/pokeball.png" alt="" id="backSprite">
+                <img src="images/pokeball.png" alt="" id="frontSpriteShiny">
+                <img src="images/pokeball.png" alt="" id="backSpriteShiny">
+                <p>Female &#9792;</p>
+                <img src="images/pokeball.png" alt="" id="frontSpriteFemale">
+                <img src="images/pokeball.png" alt="" id="backSpriteFemale">
+                <img src="images/pokeball.png" alt="" id="frontSpriteShinyFemale">
+                <img src="images/pokeball.png" alt="" id="backSpriteShinyFemale">
             </div>
-            <div class="final">
-                <img src="images/pokeball.png" alt="" id="finalForm">
-                <p><span id="finalEvo"></span></p>
+        </div>
+
+        <div id="evolutions">
+            <p class="evoTitle">Evolution Line</p>
+            <div id="evoSprites">
+                <div class="base"><img src="images/pokeball.png" alt="" id="baseForm">
+                    <p><span id="base"></span></p>
+                </div>
+                <div class="middle">
+                    <img src="images/pokeball.png" alt="" id="middleForm">
+                    <p><span id="middleEvo"></span></p>
+                </div>
+                <div class="final">
+                    <img src="images/pokeball.png" alt="" id="finalForm">
+                    <p><span id="finalEvo"></span></p>
+                </div>
             </div>
         </div>
     </div>
