@@ -141,6 +141,8 @@ document.getElementById('search').addEventListener('click', async function () {
     else {
         document.getElementById('middleEvo').innerHTML = "";
         document.getElementById('middleForm').src = "../images/pokeball.png"
+        document.getElementById('finalEvo').innerHTML = "";
+        document.getElementById('finalForm').src = "../images/pokeball.png"
 
     }
 

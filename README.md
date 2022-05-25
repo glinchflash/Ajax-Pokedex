@@ -48,7 +48,7 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 * -[x] Show both front and back sprite aswell as both front and back shiny sprite
 * - [x] Show both front and back sprite for female version (shiny aswell)
 * -[x] Show typing
-* -[ ] show next evolution aswell as previous evolution form
+* -[x] Show whole evolution line
 ---
 
 ##### Issues I came across
@@ -57,4 +57,4 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 2. Images from sprites not displaying correctly
    * linked incorrectly, cleaned up code for better overview
 3. evolution line doesn't show correctly (going into a new chain old images stay,next evo isn't always correct )
-   * 
+   * linked incorrectly, and fetched wrong api at first
