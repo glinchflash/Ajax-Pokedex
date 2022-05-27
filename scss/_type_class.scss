@@ -1,8 +1,18 @@
 .basicInfo{
   display: flex;
-  margin-left: auto;
-  .type\/moves{
+  color: black;
+  text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #ffcc00,
+          0 0 82px #ffcc01,
+          0 0 92px #ffcc02,
+          0 0 102px #ffcc03,
+          0 0 151px #ffcc04;
+  #type\/moves{
     height: 30vh;
     width: 25vw;
+    background-color: black;
   }
 }

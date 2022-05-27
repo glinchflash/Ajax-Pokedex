@@ -27,6 +27,7 @@ form {
 
 .container {
   text-align: center;
+  justify-content: center;
 }
 .container button {
   background-color: #ffcc03;
@@ -43,12 +44,11 @@ form {
 .container #sprites {
   background-color: black;
   width: 40%;
-  margin-right: auto;
-  margin-inline: auto;
+  margin-left: 4.5%;
 }
 
 #evolutions {
-  width: 40vw;
+  width: 40%;
   margin-inline: auto;
   justify-content: center;
   background-color: black;
@@ -62,7 +62,7 @@ form {
 
 #evoSprites {
   display: flex;
-  width: 40vw;
+  width: 40%;
   margin-inline: auto;
   justify-content: center;
   background-color: black;
@@ -71,11 +71,13 @@ form {
 
 .basicInfo {
   display: flex;
-  margin-left: auto;
+  color: black;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #ffcc00, 0 0 82px #ffcc01, 0 0 92px #ffcc02, 0 0 102px #ffcc03, 0 0 151px #ffcc04;
 }
-.basicInfo .type\/moves {
+.basicInfo #type\/moves {
   height: 30vh;
   width: 25vw;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

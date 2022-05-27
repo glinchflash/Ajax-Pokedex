@@ -1,5 +1,6 @@
 .container{
   text-align: center;
+  justify-content: center;
     button{
       background-color: #ffcc03;
       color: blue;
@@ -15,7 +16,6 @@
   #sprites{
     background-color: black;
     width: 40%;
-    margin-right: auto;
-    margin-inline: auto;
+    margin-left: 4.5%;
   }
 }

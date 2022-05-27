@@ -172,108 +172,126 @@ document.getElementById('search').addEventListener('click', async function () {
         document.getElementById('sprites').style.backgroundColor = '#6390F0';
         document.getElementById('evolutions').style.backgroundColor = '#6390F0';
         document.getElementById('evoSprites').style.backgroundColor = '#6390F0';
+        document.getElementById('type/moves').style.backgroundColor = '#6390F0';
     }
     //fire
     else if (data.types[0].type.name === "fire") {
         document.getElementById('sprites').style.backgroundColor = '#EE8130';
         document.getElementById('evolutions').style.backgroundColor = '#EE8130';
         document.getElementById('evoSprites').style.backgroundColor = '#EE8130';
+        document.getElementById('type/moves').style.backgroundColor = '#EE8130';
     }
     //grass
     else if (data.types[0].type.name === "grass") {
         document.getElementById('sprites').style.backgroundColor = '#7AC74C';
         document.getElementById('evolutions').style.backgroundColor = '#7AC74C';
         document.getElementById('evoSprites').style.backgroundColor = '#7AC74C';
+        document.getElementById('type/moves').style.backgroundColor = '#7AC74C';
     }
     //normal
     else if (data.types[0].type.name === "normal") {
         document.getElementById('sprites').style.backgroundColor = '#A8A77A';
         document.getElementById('evolutions').style.backgroundColor = '#A8A77A';
         document.getElementById('evoSprites').style.backgroundColor = '#A8A77A';
+        document.getElementById('type/moves').style.backgroundColor = '#A8A77A';
     }
     // electric
     else if (data.types[0].type.name === "electric") {
         document.getElementById('sprites').style.backgroundColor = '#F7D02C';
         document.getElementById('evolutions').style.backgroundColor = '#F7D02C';
         document.getElementById('evoSprites').style.backgroundColor = '#F7D02C';
+        document.getElementById('type/moves').style.backgroundColor = '#F7D02C';
     }
     //ice
     else if (data.types[0].type.name === "ice") {
         document.getElementById('sprites').style.backgroundColor = '#96D9D6';
         document.getElementById('evolutions').style.backgroundColor = '#96D9D6';
         document.getElementById('evoSprites').style.backgroundColor = '#96D9D6';
+        document.getElementById('type/moves').style.backgroundColor = '#96D9D6';
     }
     //fighting
     else if (data.types[0].type.name === "fighting") {
         document.getElementById('sprites').style.backgroundColor = '#C22E28';
         document.getElementById('evolutions').style.backgroundColor = '#C22E28';
         document.getElementById('evoSprites').style.backgroundColor = '#C22E28';
+        document.getElementById('type/moves').style.backgroundColor = '#C22E28';
     }
     //poison
     else if (data.types[0].type.name === "poison") {
         document.getElementById('sprites').style.backgroundColor = '#A33EA1';
         document.getElementById('evolutions').style.backgroundColor = '#A33EA1';
         document.getElementById('evoSprites').style.backgroundColor = '#A33EA1';
+        document.getElementById('type/moves').style.backgroundColor = '#A33EA1';
     }
     //ground
     else if (data.types[0].type.name === "ground") {
         document.getElementById('sprites').style.backgroundColor = '#E2BF65';
         document.getElementById('evolutions').style.backgroundColor = '#E2BF65';
         document.getElementById('evoSprites').style.backgroundColor = '#E2BF65';
+        document.getElementById('type/moves').style.backgroundColor = '#E2BF65';
     }
     //Flying
     else if (data.types[0].type.name === "flying") {
         document.getElementById('sprites').style.backgroundColor = '#A98FF3';
         document.getElementById('evolutions').style.backgroundColor = '#A98FF3';
         document.getElementById('evoSprites').style.backgroundColor = '#A98FF3';
+        document.getElementById('type/moves').style.backgroundColor = '#A98FF3';
     }
     // Psychic
     else if (data.types[0].type.name === "psychic") {
         document.getElementById('sprites').style.backgroundColor = '#F95587';
         document.getElementById('evolutions').style.backgroundColor = '#F95587';
         document.getElementById('evoSprites').style.backgroundColor = '#F95587';
+        document.getElementById('type/moves').style.backgroundColor = '#F95587';
     }
     // Bug Type
     else if (data.types[0].type.name === "bug") {
         document.getElementById('sprites').style.backgroundColor = '#A6B91A';
         document.getElementById('evolutions').style.backgroundColor = '#A6B91A';
         document.getElementById('evoSprites').style.backgroundColor = '#A6B91A';
+        document.getElementById('type/moves').style.backgroundColor = '#A6B91A';
     }
     // Rock Type: B6A136
     else if (data.types[0].type.name === "rock") {
         document.getElementById('sprites').style.backgroundColor = '#B6A136';
         document.getElementById('evolutions').style.backgroundColor = '#B6A136';
         document.getElementById('evoSprites').style.backgroundColor = '#B6A136';
+        document.getElementById('type/moves').style.backgroundColor = '#B6A136';
     }
     // Ghost Type: 735797
     else if (data.types[0].type.name === "ghost") {
         document.getElementById('sprites').style.backgroundColor = '#735797';
         document.getElementById('evolutions').style.backgroundColor = '#735797';
-        document.getElementById('evoSprites').style.backgroundColor = '#735797'
+        document.getElementById('evoSprites').style.backgroundColor = '#735797';
+        document.getElementById('type/moves').style.backgroundColor = '#735797';
     }
     // Dragon Type: 6F35FC
     else if (data.types[0].type.name === "dragon") {
         document.getElementById('sprites').style.backgroundColor = '#6F35FC';
         document.getElementById('evolutions').style.backgroundColor = '#6F35FC';
         document.getElementById('evoSprites').style.backgroundColor = '#6F35FC';
+        document.getElementById('type/moves').style.backgroundColor = '#6F35FC';
     }
     // Dark Type: 705746
     else if (data.types[0].type.name === "dark") {
         document.getElementById('sprites').style.backgroundColor = '#705746';
         document.getElementById('evolutions').style.backgroundColor = '#705746';
         document.getElementById('evoSprites').style.backgroundColor = '#705746';
+        document.getElementById('type/moves').style.backgroundColor = '#705746';
     }
     // Steel Type: B7B7CE
     else if (data.types[0].type.name === "steel") {
         document.getElementById('sprites').style.backgroundColor = '#B7B7CE';
         document.getElementById('evolutions').style.backgroundColor = '#B7B7CE';
         document.getElementById('evoSprites').style.backgroundColor = '#B7B7CE';
+        document.getElementById('type/moves').style.backgroundColor = '#B7B7CE';
     }
     // Fairy Type: D685AD
     else if (data.types[0].type.name === "fairy") {
         document.getElementById('sprites').style.backgroundColor = '#D685AD';
         document.getElementById('evolutions').style.backgroundColor = '#D685AD';
         document.getElementById('evoSprites').style.backgroundColor = '#D685AD';
+        document.getElementById('type/moves').style.backgroundColor = '#D685AD';
     }
 });
 
