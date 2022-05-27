@@ -8,7 +8,7 @@ Make a Pokédex using this API.
 Basic functionality that is expected (read: core features):
 
 * - [x] You can search a pokémon by name and by ID
-* - [ ] Of said pokémon you need to show:
+* - [x] Of said pokémon you need to show:
      * - [x] The ID-number
      * - [x] An image (sprite)
      * - [x] At least 4 "moves"
