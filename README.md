@@ -31,12 +31,12 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 1. - [x] make it so you can search by name and by ID
     * - [x] get data from api
     * - [x] use data to retreive specific information
-2. -[ ] Of said pokémon you need to show
+2. -[x] Of said pokémon you need to show
     * - [x] name
     *  -[x] id
     *  -[x] moves (4 minimum)
     * -[x]  previous evolution
-3. - [ ] Make your web page look like a pokédex by adding a little CSS
+3. - [x] Make your web page look like a pokédex by adding a little CSS
     *  -[x] basic layout
     *  -[x] background color changes depending on type
     *  -[x] give it a pokedex look
