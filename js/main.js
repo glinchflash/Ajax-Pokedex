@@ -88,6 +88,10 @@ document.getElementById('search').addEventListener('click', async function () {
     //Ditto only has 1 move
     if (search === 132 || search === "ditto") {
         document.getElementById("moves").innerHTML = data.moves.move.move.name;
+        document.getElementById('middleEvo').innerHTML = "";
+        document.getElementById('middleForm').src = "../images/pokeball.png"
+        document.getElementById('finalEvo').innerHTML = "";
+        document.getElementById('finalForm').src = "../images/pokeball.png"
     }
 
 

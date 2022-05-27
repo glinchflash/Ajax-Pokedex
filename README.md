@@ -58,3 +58,7 @@ There are a couple of pokemon that don't play with the normal rules, add code so
    * linked incorrectly, cleaned up code for better overview
 3. evolution line doesn't show correctly (going into a new chain old images stay,next evo isn't always correct )
    * linked incorrectly, and fetched wrong api at first
+---
+##### what I've learned
+
+1.
