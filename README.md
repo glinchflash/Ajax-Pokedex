@@ -13,7 +13,7 @@ Basic functionality that is expected (read: core features):
      * - [x] An image (sprite)
      * - [x] At least 4 "moves"
      * - [x] The previous evolution, only if it exists, along with their name and image. Be carefull, you cannot just do ID-1 to get the previous form, for example look into "magmar" - "magmortar". You have to use a seperate api call for this!
-* - [ ] Make your web page look like a pokédex by adding a little CSS.
+* - [x] Make your web page look like a pokédex by adding a little CSS.
 
 Note: For this exercise, the goal is to keep working on it, until the deadline is reached. If you are finished adding all "core features", look at what else the API has to offer, and try adding some other features. At the end of the deadline, everyone is going to present the pokédex they made; As such it is important that you have published your web page on GitHub!
 
@@ -39,7 +39,7 @@ There are a couple of pokemon that don't play with the normal rules, add code so
 3. - [ ] Make your web page look like a pokédex by adding a little CSS
     *  -[x] basic layout
     *  -[x] background color changes depending on type
-    *  -[ ] give it a pokedex look
+    *  -[x] give it a pokedex look
 4.  -[x] Post page on github pages and add link to about/readme
 ---
 
